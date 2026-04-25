@@ -1,9 +1,48 @@
 body {
   text-align: center;
   font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
 }
 
 .container {
   width: 570px;
   margin: 0 auto;
+}
+
+/* Typography */
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.name,
+.sub-title {
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+h1,
+h2 {
+  font-weight: inherit;
+}
+
+small {
+  font-size: 16px;
+}
+
+/* links */
+a {
+  color: #99d930;
+}
+
+a:hover {
+  color: #131313;
 }
